@@ -132,5 +132,7 @@ app.get('/', (req, res) => {
 
 app.listen(port, ()=>{
     console.log(`port is listening on http://localhost:${port}`);
+    console.log('how are you?');
+    
     
 })
